@@ -1,17 +1,28 @@
 package org.example;
 
-public class Car {
-    private String brand;
-    private String model;
-    private int year;
-
-    public Car(String brand, String model, int year) {
-        this.brand = brand;
-        this.model = model;
-        this.year = year;
+public class Car extends Vehicle {
+    private String name;
+    public Car(String name) {
+        super(name);
     }
 
-    public void displayInfo(){
-        System.out.println("Brand: " + brand + " Model: " + model + " Year: " + year);
+    @Override
+    public void move(){
+        System.out.println("Car is moving");
+    }
+
+    @Override
+    public void stop(){
+        System.out.println("Car has stopped");
+    }
+
+    @Override
+    public void turn(){
+        System.out.println("Car is turning");
+    }
+
+    @Override
+    public void acceleration(){
+        System.out.println("Car is accelerating");
     }
 }

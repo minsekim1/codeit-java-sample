@@ -4,7 +4,11 @@ package org.example;
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-        Car car = new Car("BMW", "MODEL-1", 2025);
-        car.displayInfo();
+        Vehicle v = new Car("Sadan");
+        v.stop();
+        v.acceleration();
+        v.stop();
+        v.move();
+        v.displayName();
     }
 }
