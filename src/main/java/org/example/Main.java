@@ -15,6 +15,8 @@ public class Main {
         list.add(new Student("name7",91));
         list.add(new Student("name8",91));
 
-        list.getMaxScoreStudent();
+        Person s = list.getMaxScoreStudent();
+        s.getHandle();
+        s.getBody();
     }
 }
