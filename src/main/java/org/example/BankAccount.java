@@ -1,9 +1,9 @@
 package org.example;
 
-public class BackAccount {
+public class BankAccount {
     private double balance;
 
-    public BackAccount(double balance) {
+    public BankAccount(double balance) {
         if(balance > 0){
             this.balance = balance;
         } else {
