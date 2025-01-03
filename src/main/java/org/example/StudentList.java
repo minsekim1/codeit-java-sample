@@ -21,4 +21,15 @@ public class StudentList {
             return false;
         }
     }
+
+    public Student getMaxScoreStudent(){
+        Student maxScoreStudent = null;
+        for(Student student : studentList){
+            if(maxScoreStudent == null || maxScoreStudent.score < student.score){
+                maxScoreStudent = student;
+            }
+        }
+        if(maxScoreStudent != null) System.out.println(maxScoreStudent);
+        return maxScoreStudent;
+    }
 }
