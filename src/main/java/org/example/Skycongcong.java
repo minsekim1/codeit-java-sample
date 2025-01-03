@@ -10,4 +10,10 @@ public class Skycongcong extends Vehicle {
     public void stop(){
         System.out.println("Skycongcong stop");
     }
+
+    @Override
+    public void printName(){
+        System.out.println("Skycongcong");
+        super.printName();
+    }
 }

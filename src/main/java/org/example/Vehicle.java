@@ -9,4 +9,8 @@ public abstract class Vehicle {
 
     public abstract void move();
     public abstract void stop();
+
+    public void printName() {
+        System.out.println("Vehicle Name: " + name);
+    }
 }

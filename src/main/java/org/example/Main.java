@@ -4,10 +4,10 @@ package org.example;
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-        Vehicle mycong = new Skycongcong("cong");
-        mycong.move();
-        mycong.stop();
-        mycong.move();
-        mycong.stop();
+        Vehicle mycong1 = new Skycongcong("cong1");
+        mycong1.printName();
+
+        Skycongcong mycong2 = new Skycongcong("cong2");
+        mycong2.printName();
     }
 }
