@@ -6,8 +6,8 @@ import java.util.ArrayList;
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-        Animal myDog = new Dog();
-        Animal myCat = new Cat();
+        Dog myDog = new Dog();
+        Cat myCat = new Cat();
 
         ArrayList<Animal> animalList = new ArrayList<>();
         animalList.add(myDog);
